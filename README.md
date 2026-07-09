@@ -80,3 +80,182 @@ A standard project README often contains the following sections.
 | License | Project license |
 
 ---
+# ✍ Markdown Basics
+
+Markdown is a simple formatting language supported by GitHub.
+
+---
+
+## Headings
+
+Use the `#` symbol.
+
+```md
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+```
+
+### Output
+
+# Heading 1
+
+## Heading 2
+
+### Heading 3
+
+#### Heading 4
+
+---
+
+## Text Formatting
+
+### Bold
+
+```md
+**Bold Text**
+```
+
+**Bold Text**
+
+---
+
+### Italic
+
+```md
+*Italic Text*
+```
+
+*Italic Text*
+
+---
+
+### Bold + Italic
+
+```md
+***Bold and Italic***
+```
+
+***Bold and Italic***
+
+---
+
+### Strikethrough
+
+```md
+~~Old Content~~
+```
+
+~~Old Content~~
+
+---
+
+# 📄 Paragraphs
+
+Simply leave a blank line between paragraphs.
+
+```md
+This is the first paragraph.
+
+This is another paragraph.
+```
+
+---
+
+# ↩ Line Break
+
+Add two spaces at the end of a line.
+
+```md
+Line One  
+Line Two
+```
+
+Output:
+
+Line One  
+Line Two
+
+---
+
+# 📋 Lists
+
+## Unordered List
+
+```md
+- Apple
+- Mango
+- Orange
+```
+
+Output
+
+- Apple
+- Mango
+- Orange
+
+---
+
+## Ordered List
+
+```md
+1. Install Node.js
+2. Clone Repository
+3. Run Project
+```
+
+Output
+
+1. Install Node.js
+2. Clone Repository
+3. Run Project
+
+---
+
+# 🔗 Links
+
+Create hyperlinks using Markdown.
+
+```md
+[Open GitHub](https://github.com)
+```
+
+Output
+
+[Open GitHub](https://github.com)
+
+---
+
+## HTML Link (Open in New Tab)
+
+```html
+<a href="https://github.com" target="_blank">
+GitHub
+</a>
+```
+
+---
+
+# 💻 Code Formatting
+
+## Inline Code
+
+```md
+Use `npm install` to install dependencies.
+```
+
+Output
+
+Use `npm install` to install dependencies.
+
+---
+
+## Multi-line Code Block
+
+````md
+```javascript
+function greet(name){
+    return `Hello ${name}`;
+}
+```
