@@ -259,3 +259,251 @@ function greet(name){
     return `Hello ${name}`;
 }
 ```
+---
+
+# 🖼 Adding Images
+
+Images can be displayed using Markdown syntax.
+
+### Syntax
+
+```md
+![Image Description](image-url)
+```
+
+### Example
+
+```md
+![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+```
+
+### Output
+
+![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+
+---
+
+## Using Local Images
+
+Project Structure
+
+```text
+project/
+│
+├── README.md
+└── assets/
+    └── screenshot.png
+```
+
+Markdown
+
+```md
+![Project Screenshot](assets/screenshot.png)
+```
+
+---
+
+# 🎥 Adding GIFs
+
+GIFs are added exactly like images.
+
+### Syntax
+
+```md
+![GIF Description](gif-url)
+```
+
+### Example
+
+```md
+![Coding GIF](https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif)
+```
+
+### Output
+
+![Coding GIF](https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif)
+
+---
+
+# 📊 Creating Tables
+
+Tables organize information in rows and columns.
+
+### Syntax
+
+```md
+| Column 1 | Column 2 | Column 3 |
+|----------|----------|----------|
+| Data 1 | Data 2 | Data 3 |
+```
+
+### Example
+
+```md
+| Technology | Purpose | Status |
+|------------|---------|--------|
+| HTML | Page Structure | ✅ Completed |
+| CSS | Styling | ✅ Completed |
+| JavaScript | Functionality | 🚧 In Progress |
+```
+
+### Output
+
+| Technology | Purpose | Status |
+|------------|---------|--------|
+| HTML | Page Structure | ✅ Completed |
+| CSS | Styling | ✅ Completed |
+| JavaScript | Functionality | 🚧 In Progress |
+
+---
+
+# ☑ Task Lists
+
+Task lists help track project progress.
+
+### Syntax
+
+```md
+- [x] Completed Task
+- [ ] Pending Task
+```
+
+### Example
+
+```md
+## Project Checklist
+
+- [x] Create Repository
+- [x] Add README
+- [x] Write Documentation
+- [ ] Add Screenshots
+- [ ] Publish Project
+```
+
+### Output
+
+## Project Checklist
+
+- [x] Create Repository
+- [x] Add README
+- [x] Write Documentation
+- [ ] Add Screenshots
+- [ ] Publish Project
+
+---
+
+# 😀 Using Emojis
+
+GitHub supports emoji shortcodes.
+
+### Syntax
+
+```md
+:rocket:
+:star:
+:fire:
+:bug:
+:warning:
+:white_check_mark:
+:computer:
+:books:
+```
+
+### Output
+
+🚀 ⭐ 🔥 🐛 ⚠️ ✅ 💻 📚
+
+### Common Emojis
+
+| Emoji | Meaning |
+|--------|---------|
+| 🚀 | Project Launch |
+| ⭐ | Highlight |
+| 📚 | Documentation |
+| 💻 | Development |
+| 🔥 | Feature |
+| 🐛 | Bug Fix |
+| ⚠️ | Warning |
+| ✅ | Completed |
+| ❌ | Failed |
+| 🎯 | Goal |
+
+---
+
+# 🛡 Badges
+
+Badges display useful project information such as build status, version, downloads, or license.
+
+### Syntax
+
+```md
+![GitHub Stars](https://img.shields.io/github/stars/user/repository)
+```
+
+### Example
+
+```md
+![GitHub Repo Stars](https://img.shields.io/github/stars/octocat/Hello-World)
+```
+
+### Popular Badge Examples
+
+```md
+![License](https://img.shields.io/badge/License-MIT-green)
+
+![Version](https://img.shields.io/badge/Version-1.0.0-blue)
+
+![Build](https://img.shields.io/badge/Build-Passing-brightgreen)
+
+![Contributions](https://img.shields.io/badge/Contributions-Welcome-orange)
+```
+
+### Output
+
+![License](https://img.shields.io/badge/License-MIT-green)
+
+![Version](https://img.shields.io/badge/Version-1.0.0-blue)
+
+![Build](https://img.shields.io/badge/Build-Passing-brightgreen)
+
+![Contributions](https://img.shields.io/badge/Contributions-Welcome-orange)
+
+---
+
+# 🖼 Clickable Images
+
+Images can also work as hyperlinks.
+
+### Syntax
+
+```md
+[![Image](image-url)](website-url)
+```
+
+### Example
+
+```md
+[![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)](https://github.com)
+```
+
+### Output
+
+Click the image below:
+
+[![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)](https://github.com)
+
+---
+
+# 📚 Helpful Resources
+
+| Resource | Description |
+|----------|-------------|
+| [GitHub Markdown Guide](https://docs.github.com/en/get-started/writing-on-github) | Official GitHub Markdown documentation |
+| [Markdown Guide](https://www.markdownguide.org/) | Complete Markdown tutorial |
+| [Shields.io](https://shields.io/) | Generate custom badges |
+| [Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet) | GitHub emoji shortcodes |
+| [Awesome README](https://github.com/matiassingers/awesome-readme) | Collection of excellent README examples |
+
+---
+
+> 💡 **Tip:** Keep your README concise, organized, and easy to navigate. A clear README helps users understand your project quickly and encourages contributions.
