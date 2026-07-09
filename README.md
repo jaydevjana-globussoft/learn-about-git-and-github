@@ -249,18 +249,16 @@ Output
 
 Use `npm install` to install dependencies.
 
----
 
 ## Multi-line Code Block
 
-````md
+```md
 ```javascript
 function greet(name){
     return `Hello ${name}`;
 }
 ```
 ---
-
 # 🖼 Adding Images
 
 Images can be displayed using Markdown syntax.
